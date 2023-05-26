@@ -1,0 +1,5 @@
+google-cloud-aiplatform==1.25.0
+streamlit==1.22.0
+streamlit-chat==0.0.2.2
+streamlit-extras==0.2.7
+protobuf==3.19.6
