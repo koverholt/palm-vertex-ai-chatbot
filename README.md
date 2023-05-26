@@ -20,6 +20,6 @@ A chatbot implementation with the PaLM API in Google Cloud with a Gradio chatbot
    ```
 
 4. Open the app in your browser using the URL that is returned from the previous
-   command, such as `http://127.0.0.1:7860/`.
+   command, such as `http://127.0.0.1:8080/`.
 
 5. Start chatting with the PaLM-powered chatbot!
