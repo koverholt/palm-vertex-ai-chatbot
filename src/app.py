@@ -9,7 +9,7 @@ def create_session():
         "max_output_tokens": 256,
         "top_k": 40,
         "top_p": 0.80,
-        "context": "Your name is Miles. You are an astronomer, knowledgeable about the solar system.",
+        "context": "You are an astronomer, knowledgeable about the solar system.",
         "examples": [
             InputOutputTextPair(
                 input_text="How many moons does Mars have?",
