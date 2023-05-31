@@ -29,8 +29,16 @@ def response(chat, message):
 
 
 with gr.Blocks() as demo:
-    chatbot = gr.Chatbot(label="PaLM-based Chatbot powered by Vertex AI")
-    msg = gr.Textbox()
+    chatbot = gr.Chatbot(
+        [
+            (
+                "Hello! I'm an astronomer chatbot.\nAsk me anything about the solar system!",
+                None,
+            )
+        ],
+        label="PaLM-based Chatbot powered by Google Cloud",
+    ).style(height=400)
+    msg = gr.Textbox(placeholder="Type your response here", label="Response")
     clear = gr.Button("Clear")
     chat_model = create_session()
 
