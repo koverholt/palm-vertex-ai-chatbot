@@ -27,7 +27,7 @@ Google Cloud
 4. Run the app:
 
    ```
-   python app.py
+   python src/app.py
    ```
 
 5. Navigate to `http://127.0.0.1:8080/` in your browser.
@@ -39,7 +39,7 @@ Google Cloud
 The above steps allow you to test and use the chatbot app on your local machine.
 You can use a fully managed service such as Cloud Run to publish your app.
 
-1. From the `src\` directory, run the following command using the
+1. From the `src/` directory, run the following command using the
    [gcloud CLI](https://cloud.google.com/sdk/gcloud):
 
    ```
